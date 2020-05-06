@@ -1,0 +1,19 @@
+{
+  "name": "wallace",
+  "version": "1.0.0",
+  "description": "Wallace helps you to quickly set-up your local development environment.",
+  "main": "index.js",
+  "scripts": {
+    "eslint-init": "eslint --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voightco/wallace.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voightco/wallace/issues"
+  },
+  "homepage": "https://github.com/voightco/wallace#readme"
+}

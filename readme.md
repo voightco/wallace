@@ -4,6 +4,7 @@ These are opionated configuration files. Please tweak them to your liking. Don't
 
 ## Includes
 * [EditorConfig][config]: helps to maintain a consistent coding styles across various editors and IDEs.
+* [ESLint][eslint]: analyzes JavaScript to quickly find syntax problems.
 
 
 ## Install
@@ -12,6 +13,7 @@ Most of these configurations work by installing a plugin for your text editor an
 ## Plugins
 
 * Install the [EditorConfig plugin][ediplugin] for your text editor
+* Install the [ESLint plugin][esplugin] for your text editor
 
 ## Support
 
@@ -29,3 +31,5 @@ Made with 🤍 by [Danny de Vries][author] and [contributors][contributors].
 [support]: https://www.dandevri.es/support/
 [ediplugin]: https://editorconfig.org/#download
 [config]: https://editorconfig.org/
+[eslint]: https://eslint.org/
+[esplugin]: https://eslint.org/docs/user-guide/integrations

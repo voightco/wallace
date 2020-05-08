@@ -1,10 +1,11 @@
 > **Wallace** helps you to quickly set-up your local development environment.
 
-These are opionated configuration files. Please tweak them to your liking. Don't take them as is.
+These are opionated configuration files. Please tweak them to your liking. Don't take them as is. Legitability and maintenance over clever tricks.
 
 ## Includes
 * [EditorConfig][config]: helps to maintain a consistent coding styles across various editors and IDEs.
-* [ESLint][eslint]: analyzes JavaScript to quickly find syntax problems.
+* [ESLint][eslint]: analyzes JavaScript to quickly find syntax problems (errors).
+* [Prettier][prettier]: opinionated code formatter (style)
 
 
 ## Install
@@ -14,6 +15,8 @@ Most of these configurations work by installing a plugin for your text editor an
 
 * Install the [EditorConfig plugin][ediplugin] for your text editor
 * Install the [ESLint plugin][esplugin] for your text editor
+
+_You'll probably don't need the prettier plugin, we extend prettier through ESLint._
 
 ## Support
 
@@ -33,3 +36,4 @@ Made with 🤍 by [Danny de Vries][author] and [contributors][contributors].
 [config]: https://editorconfig.org/
 [eslint]: https://eslint.org/
 [esplugin]: https://eslint.org/docs/user-guide/integrations
+[prettier]: 

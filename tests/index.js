@@ -1,4 +1,4 @@
-function sayHi() {
+function sayHi () {
   var age = 10;
 }
 

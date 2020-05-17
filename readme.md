@@ -1,20 +1,35 @@
-> **Wallace** helps you to quickly set-up your local development environment.
+<div align="center" style="text-align: center;">
 
-These are opionated configuration files. Please tweak them to your liking. Don't take them as is. Legitability and maintenance over clever tricks.
+![wallacelogo](./docs/github-logo.jpg)
+
+<em>Quickly set-up your local linting environment.</em>
+
+<a href="#includes">Includes</a> |
+<a href="#install">Install</a> |
+<a href="#plugins">Plugins</a>
+
+</div>
+
+## Intro
+
+A **basic linting set-up** you can add to any (node) project. These are opionated default configuration files. Please tweak them to your liking, don't take them 'as is'.
 
 ## Includes
-* [EditorConfig][config]: helps to maintain a consistent coding styles across various editors and IDEs.
-* [ESLint][eslint]: analyzes JavaScript to quickly find syntax problems (errors).
-* [Prettier][prettier]: opinionated code formatter (style)
 
+- [EditorConfig][config]: helps to maintain a consistent coding styles across various editors and IDEs.
+- [ESLint][eslint]: analyzes JavaScript to quickly find syntax problems (errors).
+- [Stylelint][stylelint]: avoids errors and enforces conventions in your styles.
+- [Prettier][prettier]: opinionated code formatter (style)
 
 ## Install
-Most of these configurations work by installing a plugin for your text editor and then adding _configuration files_ to your project.You can add these dotfiles to your _existing project_, put them in the root of your directory. Or install them _globally_ on your machine by adding them to the root of your machine.
+
+Most of these configurations work by installing a plugin for your text editor and then adding _configuration files_ to your project. You can add these `dotfiles` to your _existing project_, put them in the root of your directory. Or install them _globally_ on your machine by adding them to the root of your machine.
 
 ## Plugins
 
-* Install the [EditorConfig plugin][ediplugin] for your text editor
-* Install the [ESLint plugin][esplugin] for your text editor
+- Install the [EditorConfig plugin][ediplugin] for your text editor
+- Install the [ESLint plugin][esplugin] for your text editor
+- Install the [Stylelint plugin][styleplug] for your text editor
 
 _You'll probably don't need the prettier plugin, we extend prettier through ESLint._
 
@@ -36,4 +51,6 @@ Made with 🤍 by [Danny de Vries][author] and [contributors][contributors].
 [config]: https://editorconfig.org/
 [eslint]: https://eslint.org/
 [esplugin]: https://eslint.org/docs/user-guide/integrations
-[prettier]: 
+[prettier]: https://prettier.io/
+[stylelint]: https://stylelint.io/
+[styleplug]: https://stylelint.io/user-guide/integrations/editor

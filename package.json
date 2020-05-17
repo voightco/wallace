@@ -4,7 +4,7 @@
   "description": "Wallace helps you to quickly set-up your local development environment.",
   "main": "index.js",
   "scripts": {
-    "eslint-init": "eslint --init",
+    "lint:js": "eslint '**/*.js'",
     "lint:css": "stylelint '**/*.css'"
   },
   "repository": {

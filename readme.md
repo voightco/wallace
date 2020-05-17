@@ -19,11 +19,32 @@ A **basic linting set-up** you can add to any (node) project. These are opionate
 - [EditorConfig][config]: helps to maintain a consistent coding styles across various editors and IDEs.
 - [ESLint][eslint]: analyzes JavaScript to quickly find syntax problems (errors).
 - [Stylelint][stylelint]: avoids errors and enforces conventions in your styles.
-- [Prettier][prettier]: opinionated code formatter (style)
+- [Prettier][prettier]: opinionated code formatter (style).
+- [VScode editor settings][prettier]: common defaults for the VSCode text editor.
 
 ## Install
 
 Most of these configurations work by installing a plugin for your text editor and then adding _configuration files_ to your project. You can add these `dotfiles` to your _existing project_, put them in the root of your directory. Or install them _globally_ on your machine by adding them to the root of your machine.
+
+### Linting
+
+If you installed the _plugins for your editor_, it will show any linting warnings and errors trough the interface. You can also lint trough your _cli_ using `npm run scripts`.
+
+_Lint every JavaScript file in your project using the cli_
+
+```
+npm run lint:css
+```
+
+_Lint every CSS file in your project using the cli_
+
+```
+npm run lint:js
+```
+
+### VSCode settings
+
+The easiest way to install the VScode configuration is to open up the `settings.json` file from **this repository** and copy and paste the contents into your current `settings.json` **from VScode**.
 
 ## Plugins
 
